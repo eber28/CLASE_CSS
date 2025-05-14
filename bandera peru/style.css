@@ -1,0 +1,24 @@
+.bandera{
+     height: 600px;
+    background: white;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+article{
+    height: 300px;
+    width: 250px;
+    background: red;
+    margin: 0px;
+    border: 2px solid black;
+}
+.blanco{
+     height: 300px;
+    width: 250px;
+    background: white;
+    margin: 0px;
+    border: 2px solid;
+    justify-content: center;
+    align-items: center;
+}
