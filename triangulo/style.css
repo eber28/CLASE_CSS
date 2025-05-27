@@ -1,0 +1,35 @@
+main{
+
+    height: 100vh;
+    background:yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+section{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid blue;
+    margin: 50px auto;           
+    transition: all 2s;
+
+}
+section:hover{
+    height: 100px;
+    width: 100px;
+    background: black;
+    /*border-radius: 100%;*/
+    /*rotate: 45deg;*/
+    transition: all 3s;
+
+}
+section:hover{
+     height: 100px;
+    width: 100px;
+    background: blue;
+    /*rotate: 45deg;*/
+    border-radius: 50%;
+}
